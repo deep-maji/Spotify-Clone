@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="/Spotify-Clone/assets/logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="siderbar">
+            <div class="nav">
+                <div class="nav-option active">
+                    <i class="fa-solid fa-house"></i>
+                    <!-- <span aria-hidden="true" class="e-9960-button__icon-wrapper"><svg data-encore-id="icon" role="img" aria-hidden="true" class="e-9960-icon e-9960-baseline" viewBox="0 0 24 24"><path d="M13.5 1.515a3 3 0 0 0-3 0L3 5.845a2 2 0 0 0-1 1.732V21a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-6h4v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V7.577a2 2 0 0 0-1-1.732z"></path></svg></span> -->
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <!-- <svg data-encore-id="icon" role="img" aria-hidden="true" class="e-9960-icon e-9960-baseline M9l40ptEBXPm03dU3X1k" data-testid="search-icon" viewBox="0 0 24 24" style="--encore-icon-height: var(--encore-graphic-size-decorative-larger-3); --encore-icon-width: var(--encore-graphic-size-decorative-larger-3);"><path d="M10.533 1.27893C5.35215 1.27893 1.12598 5.41887 1.12598 10.5579C1.12598 15.697 5.35215 19.8369 10.533 19.8369C12.767 19.8369 14.8235 19.0671 16.4402 17.7794L20.7929 22.132C21.1834 22.5226 21.8166 22.5226 22.2071 22.132C22.5976 21.7415 22.5976 21.1083 22.2071 20.7178L17.8634 16.3741C19.1616 14.7849 19.94 12.7634 19.94 10.5579C19.94 5.41887 15.7138 1.27893 10.533 1.27893ZM3.12598 10.5579C3.12598 6.55226 6.42768 3.27893 10.533 3.27893C14.6383 3.27893 17.94 6.55226 17.94 10.5579C17.94 14.5636 14.6383 17.8369 10.533 17.8369C6.42768 17.8369 3.12598 14.5636 3.12598 10.5579Z"></path></svg> -->
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options ">
+                    <div class="lib-option nav-option">
+                        <img src="/Spotify-Clone/assets/library_icon.png" alt="">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse Podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="stick-nav">
+                <div class="stick-nav-icons">
+                    <img src="/Spotify-Clone/assets/backward_icon.png" alt="">
+                    <img class="hide" src="/Spotify-Clone/assets/forward_icon.png" alt="">
+                </div>
+                <div class="stick-nav-options">
+                    <button class="badge hide">Explore Permium</button>
+                    <button class="badge dark-badge"><i class="fa-regular fa-circle-down"></i>Install Apps</button>
+                    <i class="fa-regular fa-user"></i>
+                </div>
+            </div>
+
+            <h2>Recently Played</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img class="card-img" src="/Spotify-Clone/assets/card1img.jpeg" alt="">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily uodates of the most played tracks ...</p>
+                </div>
+            </div>
+            <h2>Trending now near you</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img class="card-img" src="/Spotify-Clone/assets/card2img.jpeg" alt="">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily uodates of the most played tracks ...</p>
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/Spotify-Clone/assets/card3img.jpeg" alt="">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily uodates of the most played tracks ...</p>
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/Spotify-Clone/assets/card4img.jpeg" alt="">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily uodates of the most played tracks ...</p>
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/Spotify-Clone/assets/card4img.jpeg" alt="">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily uodates of the most played tracks ...</p>
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/Spotify-Clone/assets/card4img.jpeg" alt="">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily uodates of the most played tracks ...</p>
+                </div>
+            </div>
+            <h2>Featured Charts</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img class="card-img" src="/Spotify-Clone/assets/card5img.jpeg" alt="">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily uodates of the most played tracks ...</p>
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/Spotify-Clone/assets/card6img.jpeg" alt="">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily uodates of the most played tracks ...</p>
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/Spotify-Clone/assets/card1img.jpeg" alt="">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily uodates of the most played tracks ...</p>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="album"></div>
+            <div class="player">
+                <div class="player-control">
+                    <img src="/Spotify-Clone/assets/player_icon1.png" class="player-control-icons" alt="">
+                    <img src="/Spotify-Clone/assets/player_icon2.png" class="player-control-icons" alt="">
+                    <img src="/Spotify-Clone/assets/player_icon3.png" class="player-control-icons" alt="">
+                    <img src="/Spotify-Clone/assets/player_icon4.png" class="player-control-icons" alt="">
+                    <img src="/Spotify-Clone/assets/player_icon5.png" class="player-control-icons" alt="">
+                </div>
+                <div class="playback-bar">
+                    <span class="current-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="total-time">3:33</span>
+                </div>
+            </div>
+            <div class="controls"></div>
+        </div>
+    </div>
+</body>
+
+</html>
