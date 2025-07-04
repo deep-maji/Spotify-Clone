@@ -37,7 +37,7 @@ You can view a live preview by opening `index.html` in your browser or deploying
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/spotify-clone.git
+   git clone https://github.com/deep-maji/Spotify-Clone.git
    cd spotify-clone
 
 # Known Limitations
